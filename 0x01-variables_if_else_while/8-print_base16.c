@@ -10,7 +10,7 @@
 int main(void)
 {
 	int digit = 48; /*48; decimal rep of 0*/
-	
+
 	while (digit <= 102)/*102; decimal rep of f*/
 	{
 		/*after 9 we jump till 96;*/
@@ -19,6 +19,5 @@ int main(void)
 		digit++;
 	}
 	putchar('\n');
-	
 	return (0);
 }
