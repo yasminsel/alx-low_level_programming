@@ -38,16 +38,14 @@ void largest_prime_factor(long int num)
 		num = num / 2;
 
 	/* num must be odd so we proceed to the next prime number (plus two) */
-	for (prmN = 3; prmNu <= _sqrt(num); prmNu += 2)
+	for (prmNu = 3; prmNu <= _sqrt(num); prmNu += 2)
 	{
-		while (num % prmNu == 0)
-		{
 			while (num % prmNu == 0)
 			{
 				num = num / prmNu;
 				largest = prmNu;
 			}
-		}
+	}
 
 		if (num > 2)
 			largest = num;
