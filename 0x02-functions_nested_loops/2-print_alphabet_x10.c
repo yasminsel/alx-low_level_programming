@@ -2,6 +2,10 @@
 
 /**
  * print_alphabet_x10 times -  function will print the alphabet 10 times
+ *
+ * Desription: this function prints alphabet
+ *
+ * Return: void
 */
 
 void print_alphabet_x10(void)
