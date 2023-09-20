@@ -5,7 +5,7 @@
  *
  * @src: pointer to source input
  * @dest: pointer to destination input
- *
+ * @n: contains more bytes
  * Return: pointer to the resulting string @dest
 */
 
