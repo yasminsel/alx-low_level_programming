@@ -23,11 +23,11 @@ int isLower(char c)
 int isDelimiter(char c)
 {
 	int i;
-	char delimiter[] = " \t\n, .!?\" [] []";
+	char delimiter[] = " \t\n,.!?\" [] []";
 
 	for (i = 0; i < 12; i++)
 		if (c == delimiter[i])
-			return (i);
+			return (1);
 	return (0);
 }
 
