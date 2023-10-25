@@ -14,10 +14,10 @@ int is_prime_number(int n)
 }
 
 /**
- * _check_prime - check all number < n if they can devide it
+ * check_prime - check all number < n if they can devide it
  * @n: int
  * @othrn: int
- * @othrn: int
+ * Return: int
 */
 
 int check_prime(int n, int othrn)
