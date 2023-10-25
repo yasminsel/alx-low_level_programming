@@ -14,7 +14,7 @@ int is_prime_number(int n)
 }
 
 /**
- * check_prime - check all number < n if they can devide it
+ * _check_prime - check all number < n if they can devide it
  * @n: int
  * @othrn: int
  * @othrn: int
