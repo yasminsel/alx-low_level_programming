@@ -14,7 +14,7 @@ int wrdcnt(char *s)
 		if (s[i] == ' ')
 		{
 			if (s[i + 1] != ' ' && s[i + 1] != '\0')
-				 n++;
+				n++;
 		}
 		else if (i == 0)
 			n++;
@@ -24,7 +24,7 @@ int wrdcnt(char *s)
 }
 
 /**
- * strow - splits a string into words
+ * **strtow - splits a string into words
  * @str: string to split
  * Return: pointer to an array of strings
 */
