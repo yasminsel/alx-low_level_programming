@@ -1,6 +1,12 @@
-#ifndef _FUNCTION_LIKE_MACRO_H
-#define _FUNCTION_LIKE_MACRO_H
+#include <stdio>
 
-#define ABS(X) ((X) < 0 ? (-(x)) : (x))
-
-#endif /* _FUNCTION_LIKE_MACRO_H */
+/**
+ * main - print name of of this source file
+ *
+ * Return: Always 0.
+*/
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
