@@ -18,6 +18,6 @@ int main(void)
 			digit += 39;
 		digit++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
