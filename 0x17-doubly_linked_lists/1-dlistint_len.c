@@ -1,9 +1,8 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - adds new head
- * @head: address
- * @n: int field
+ * dlistint_len - returns length
+ * @h: addres
  *
  * Return: address
 */
